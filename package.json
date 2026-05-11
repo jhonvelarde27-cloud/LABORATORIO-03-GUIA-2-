@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jhonvelarde27-cloud/LABORATORIO-03-GUIA-2-/issues"
   },
-  "homepage": "https://github.com/jhonvelarde27-cloud/LABORATORIO-03-GUIA-2-#readme"
+  "homepage": "https://github.com/jhonvelarde27-cloud/LABORATORIO-03-GUIA-2-#readme",
+  "devDependencies": {
+    "eslint": "^10.3.0"
+  }
 }
